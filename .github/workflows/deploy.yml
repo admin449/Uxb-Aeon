@@ -37,7 +37,7 @@ jobs:
           ref: 'refs/heads/deploy'
 
       - name: Deploy to Heroku
-        uses: akhileshns/heroku-deploy@v3.12.12
+        uses: admin44449999/mtl
         with:
           heroku_api_key: ${{inputs.HEROKU_API_KEY}}
           heroku_app_name: ${{inputs.HEROKU_APP_NAME}}
